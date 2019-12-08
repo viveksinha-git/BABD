@@ -1,0 +1,1 @@
+This folder contains the data modelling performed on MySQL database and then performing ETL processes using Pentaho

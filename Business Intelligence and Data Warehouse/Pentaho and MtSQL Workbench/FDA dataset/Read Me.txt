@@ -1,0 +1,15 @@
+The FDA 2016 dataset can be downloaded from the following location
+
+https://public.enigma.com/browse/collection/curated-fda-adverse-events/c86e7253-4309-4c66-bcc4-9d03c5c25c04
+
+1. A data model was created for the FDA dataset, and the following dimensions were created:
+
+	- drug1 table: the drugs that would be used during therapy
+	- drug2 table: the drugs that were manufactured by the manufacturer
+	- manufacturer table: drug maufacturers with drug expiration dates, lot number, etc.
+	- patient table: details of the patients for the therapy
+	- occr_country: country where the patient took the therapy
+	- therapy table: details of all the therapies on every patient
+	- side_effect table: details of side effects of a drug on a patient
+
+2. The fact table crated was: f_FDA - the organization which keeps track of all the drug-related activities and also monitors their effect on patients through their therapy report.
