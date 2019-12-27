@@ -1,0 +1,7 @@
+This PollutionDataMadrid.pdf gives a brief discription on how to retrieve information about air pollution in Madrid, Spain.
+
+Here, 72 csv files were combined together to get the air pollution data over the years 2011-2016.
+
+This data set was then merged with the weather.xlsx file data to extract inferences of the amount of air pollutants in Madrid. Simple R progrsmming was used to demonstrate the inferences.
+
+The parameters.png file was used to merge the 2 data sets.
